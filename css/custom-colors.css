@@ -1,0 +1,332 @@
+/* ========================================
+   SISTEMA DE COLORES PERSONALIZABLE
+   ======================================== */
+
+:root {
+    /* === COLORES PRINCIPALES === */
+    --primary-color: #3B82F6;          /* Azul principal */
+    --secondary-color: #8B5CF6;        /* Morado secundario */
+    --accent-color: #10B981;           /* Verde de acento */
+    --warning-color: #F59E0B;          /* Naranja de advertencia */
+    --danger-color: #EF4444;           /* Rojo de peligro */
+    
+    /* === COLORES DE FONDO === */
+    --bg-primary: #F9FAFB;             /* Fondo principal (gris muy claro) */
+    --bg-secondary: #FFFFFF;           /* Fondo secundario (blanco) */
+    --bg-card: #FFFFFF;                /* Fondo de tarjetas */
+    --bg-accent: #F3F4F6;              /* Fondo de acento */
+    
+    /* === COLORES DE TEXTO === */
+    --text-primary: #1F2937;           /* Texto principal (gris oscuro) */
+    --text-secondary: #6B7280;         /* Texto secundario (gris medio) */
+    --text-muted: #9CA3AF;             /* Texto atenuado (gris claro) */
+    --text-white: #FFFFFF;             /* Texto blanco */
+    
+    /* === COLORES ESPECÍFICOS POR SECCIÓN === */
+    /* Días transcurridos */
+    --dias-color: var(--accent-color);
+    --dias-bg: #ECFDF5;
+    --dias-border: #D1FAE5;
+    
+    /* Descansos */
+    --descanso-color: var(--secondary-color);
+    --descanso-bg: #F3E8FF;
+    --descanso-border: #E9D5FF;
+    
+    /* Abonos */
+    --abono-color: var(--accent-color);
+    --abono-bg: #ECFDF5;
+    --abono-border: #D1FAE5;
+    
+    /* Vacaciones */
+    --vacaciones-color: #EA580C;
+    --vacaciones-bg: #FFF7ED;
+    --vacaciones-border: #FDBA74;
+    
+    /* Ingresos por días */
+    --ingresos-color: var(--warning-color);
+    --ingresos-bg: #FFFBEB;
+    --ingresos-border: #FED7AA;
+    
+    /* === COLORES DE BORDES Y SOMBRAS === */
+    --border-light: #E5E7EB;
+    --border-medium: #D1D5DB;
+    --shadow-light: rgba(0, 0, 0, 0.05);
+    --shadow-medium: rgba(0, 0, 0, 0.1);
+    
+    /* === EFECTOS HOVER === */
+    --hover-opacity: 0.8;
+    --transition-speed: 0.3s;
+}
+
+/* ========================================
+   TEMAS ALTERNATIVOS
+   ======================================== */
+
+/* TEMA OSCURO - Descomenta para activar */
+/*
+:root {
+    --primary-color: #60A5FA;
+    --secondary-color: #A78BFA;
+    --accent-color: #34D399;
+    --warning-color: #FBBF24;
+    --danger-color: #F87171;
+    
+    --bg-primary: #111827;
+    --bg-secondary: #1F2937;
+    --bg-card: #374151;
+    --bg-accent: #4B5563;
+    
+    --text-primary: #F9FAFB;
+    --text-secondary: #D1D5DB;
+    --text-muted: #9CA3AF;
+    --text-white: #FFFFFF;
+    
+    --border-light: #4B5563;
+    --border-medium: #6B7280;
+    --shadow-light: rgba(0, 0, 0, 0.3);
+    --shadow-medium: rgba(0, 0, 0, 0.5);
+}
+*/
+
+/* TEMA VERDE NATURALEZA - Descomenta para activar */
+/*
+:root {
+    --primary-color: #059669;
+    --secondary-color: #0D9488;
+    --accent-color: #10B981;
+    --warning-color: #D97706;
+    --danger-color: #DC2626;
+    
+    --bg-primary: #F0FDF4;
+    --bg-secondary: #FFFFFF;
+    --bg-card: #FFFFFF;
+    --bg-accent: #ECFDF5;
+    
+    --dias-color: #059669;
+    --descanso-color: #0D9488;
+    --vacaciones-color: #F59E0B;
+    --abono-color: #10B981;
+    --ingresos-color: #D97706;
+}
+*/
+
+/* TEMA AZUL PROFESIONAL - Descomenta para activar */
+/*
+:root {
+    --primary-color: #1E40AF;
+    --secondary-color: #3730A3;
+    --accent-color: #0EA5E9;
+    --warning-color: #EA580C;
+    --danger-color: #DC2626;
+    
+    --bg-primary: #F0F9FF;
+    --bg-secondary: #FFFFFF;
+    --bg-card: #FFFFFF;
+    --bg-accent: #EFF6FF;
+    
+    --dias-color: #0EA5E9;
+    --descanso-color: #3730A3;
+    --vacaciones-color: #F59E0B;
+    --abono-color: #1E40AF;
+    --ingresos-color: #EA580C;
+}
+*/
+
+/* ========================================
+   APLICACIÓN DE COLORES PERSONALIZADOS
+   ======================================== */
+
+/* Fondo principal */
+body {
+    background-color: var(--bg-primary) !important;
+    color: var(--text-primary) !important;
+    transition: all var(--transition-speed) ease;
+}
+
+/* Tarjetas principales */
+.bg-white {
+    background-color: var(--bg-card) !important;
+    border: 1px solid var(--border-light) !important;
+}
+
+/* Títulos y encabezados */
+h1, h2, h3 {
+    color: var(--text-primary) !important;
+}
+
+/* Tarjeta de días transcurridos */
+.dias-transcurridos {
+    color: var(--dias-color) !important;
+}
+
+/* Tarjeta de descansos */
+.descansos-card {
+    color: var(--descanso-color) !important;
+}
+
+/* Tarjeta de abonos */
+.abonos-card {
+    color: var(--abono-color) !important;
+}
+
+/* Tarjeta de vacaciones */
+.vacaciones-card {
+    color: var(--vacaciones-color) !important;
+}
+
+/* Tarjeta de ingresos */
+.ingresos-card {
+    color: var(--ingresos-color) !important;
+}
+
+/* Elementos de descanso */
+.descanso-item {
+    background-color: var(--descanso-bg) !important;
+    border-color: var(--descanso-border) !important;
+    color: var(--descanso-color) !important;
+}
+
+/* Elementos de abono */
+.abono-item {
+    background-color: var(--abono-bg) !important;
+    border-color: var(--abono-border) !important;
+    color: var(--abono-color) !important;
+}
+
+/* Elementos de vacaciones */
+.vacaciones-item {
+    background-color: var(--vacaciones-bg) !important;
+    border-color: var(--vacaciones-border) !important;
+    color: var(--vacaciones-color) !important;
+}
+
+/* Iconos */
+.fas, .far, .fab {
+    transition: color var(--transition-speed) ease;
+}
+
+/* Efectos hover */
+.bg-white:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px var(--shadow-medium);
+    transition: all var(--transition-speed) ease;
+}
+
+/* Texto secundario */
+.text-gray-600 {
+    color: var(--text-secondary) !important;
+}
+
+.text-gray-500 {
+    color: var(--text-muted) !important;
+}
+
+/* Bordes */
+.border-t {
+    border-color: var(--border-light) !important;
+}
+
+/* Total general destacado */
+.total-general {
+    color: var(--accent-color) !important;
+    text-shadow: 0 2px 4px var(--shadow-light);
+}
+
+/* Botón toggle de vacaciones */
+#toggle-vacaciones {
+    background-color: var(--vacaciones-color) !important;
+    transition: all var(--transition-speed) ease;
+    font-size: 0.875rem;
+    font-weight: 500;
+    box-shadow: 0 2px 4px var(--shadow-light);
+}
+
+#toggle-vacaciones:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px var(--shadow-medium);
+}
+
+#toggle-vacaciones:active {
+    transform: translateY(0);
+}
+
+/* Animación del icono toggle */
+#icono-toggle {
+    transition: transform var(--transition-speed) ease;
+}
+
+#toggle-vacaciones:hover #icono-toggle {
+    transform: scale(1.1);
+}
+
+/* ========================================
+   ANIMACIONES Y TRANSICIONES
+   ======================================== */
+
+/* Animación de carga suave */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-fade-in {
+    animation: fadeInUp 0.6s ease-out;
+}
+
+/* Pulso suave para números importantes */
+@keyframes pulse-gentle {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.02);
+    }
+}
+
+.pulse-gentle {
+    animation: pulse-gentle 2s infinite;
+}
+
+/* ========================================
+   RESPONSIVE DESIGN
+   ======================================== */
+
+@media (max-width: 768px) {
+    :root {
+        --shadow-light: rgba(0, 0, 0, 0.03);
+        --shadow-medium: rgba(0, 0, 0, 0.08);
+    }
+    
+    .bg-white:hover {
+        transform: none;
+        box-shadow: 0 4px 12px var(--shadow-light);
+    }
+}
+
+/* ========================================
+   MODO DE IMPRESIÓN
+   ======================================== */
+
+@media print {
+    :root {
+        --bg-primary: #FFFFFF;
+        --bg-secondary: #FFFFFF;
+        --bg-card: #FFFFFF;
+        --text-primary: #000000;
+        --text-secondary: #333333;
+        --shadow-light: none;
+        --shadow-medium: none;
+    }
+    
+    .bg-white:hover {
+        transform: none;
+        box-shadow: none;
+    }
+}
