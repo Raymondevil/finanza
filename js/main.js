@@ -180,7 +180,7 @@ function renderizarVacaciones() {
 }
 
 // Estado del toggle de vacaciones
-let vacacionesVisibles = true;
+let vacacionesVisibles = false;
 
 // Función para convertir fecha Date a string formato dd-mes-yyyy
 function formatearFechaParaArray(fecha) {
