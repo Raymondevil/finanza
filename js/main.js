@@ -40,16 +40,19 @@ const DIAS_DESCANSO = [
     "16-agosto-2025",
     "17-agosto-2025",
     "24-agosto-2025",
-    "07-septiembre-2025"
+    "07-septiembre-2025",
+	"14-septiembre-2025",
+	"21-septiembre-2025",
+	"28-septiembre-2025"
 ];
 
 // Días de vacaciones (15 septiembre - 7 octubre 2025)
 const DIAS_VACACIONES = [
-    "15-septiembre-2025", "16-septiembre-2025", "17-septiembre-2025", "18-septiembre-2025", "19-septiembre-2025",
-    "20-septiembre-2025", "21-septiembre-2025", "22-septiembre-2025", "23-septiembre-2025", "24-septiembre-2025",
-    "25-septiembre-2025", "26-septiembre-2025", "27-septiembre-2025", "28-septiembre-2025", "29-septiembre-2025",
-    "30-septiembre-2025", "01-octubre-2025", "02-octubre-2025", "03-octubre-2025", "04-octubre-2025",
-    "05-octubre-2025", "06-octubre-2025", "07-octubre-2025"
+//    "15-septiembre-2025", "16-septiembre-2025", "17-septiembre-2025", "18-septiembre-2025", "19-septiembre-2025",
+  //  "20-septiembre-2025", "21-septiembre-2025", "22-septiembre-2025", "23-septiembre-2025", "24-septiembre-2025",
+    // "25-septiembre-2025", "26-septiembre-2025", "27-septiembre-2025", "28-septiembre-2025", "29-septiembre-2025",
+//    "30-septiembre-2025", "01-octubre-2025", "02-octubre-2025", "03-octubre-2025", "04-octubre-2025",
+    "28-octubre-2025", "29-octubre-2025", "30-octubre-2025"
 ];
 
 // Abonos
@@ -60,7 +63,8 @@ const ABONOS = [
     { fecha: "30-julio-2025", monto: 3600, nota: "lunes que me pidio agua" },
     { fecha: "10-agosto-2025", monto: 3600, nota: "domingo en el parque los fresnos" },
     { fecha: "30-agosto-2025", monto: 1800, nota: "viernes de ballenas" },
-    { fecha: "03-septiembre-2025", monto: 3000, nota: "miercoles pago escuela chamuco" }
+    { fecha: "03-septiembre-2025", monto: 3000, nota: "miercoles pago escuela chamuco" },
+	{ fecha: "02-octubre-2025", monto: 3000, nota: "jueves en la madrugada para pagar la escuela" }
 ];
 
 // Función para formatear fecha en español
