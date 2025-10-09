@@ -43,7 +43,8 @@ const DIAS_DESCANSO = [
     "07-septiembre-2025",
 	"14-septiembre-2025",
 	"21-septiembre-2025",
-	"28-septiembre-2025"
+	"28-septiembre-2025",
+	"05-octubre-2025",
 ];
 
 // Días de vacaciones (15 septiembre - 7 octubre 2025)
@@ -64,7 +65,8 @@ const ABONOS = [
     { fecha: "10-agosto-2025", monto: 3600, nota: "domingo en el parque los fresnos" },
     { fecha: "30-agosto-2025", monto: 1800, nota: "viernes de ballenas" },
     { fecha: "03-septiembre-2025", monto: 3000, nota: "miercoles pago escuela chamuco" },
-	{ fecha: "02-octubre-2025", monto: 3000, nota: "jueves en la madrugada para pagar la escuela" }
+	{ fecha: "02-octubre-2025", monto: 3000, nota: "jueves en la madrugada para pagar la escuela" },
+	{ fecha: "08-octubre-2025", monto: 800, nota: "Miercoles que no funcionaba moto de mencha" },
 ];
 
 // Función para formatear fecha en español
