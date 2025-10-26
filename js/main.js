@@ -46,6 +46,7 @@ const DIAS_DESCANSO = [
 	"28-septiembre-2025",
 	"05-octubre-2025",
 	"12-octubre-2025",
+	"17-octubre-2025",
 ];
 
 // Días de vacaciones (15 septiembre - 7 octubre 2025)
@@ -61,17 +62,21 @@ const DIAS_VACACIONES = [
 
 // Abonos
 const ABONOS = [
-	{ fecha: "11-mayo-2025", monto: 1900, nota: "" },
-	{ fecha: "11-mayo-2025", monto: 1800, nota: "Día que trabajo me dio 3700 dia de cuenta" },
-	{ fecha: "16-julio-2025", monto: 3600, nota: "lunes en la casa con la pitahaya" },
-	{ fecha: "30-julio-2025", monto: 3600, nota: "lunes que me pidio agua" },
-	{ fecha: "10-agosto-2025", monto: 3600, nota: "domingo en el parque los fresnos" },
-	{ fecha: "30-agosto-2025", monto: 1800, nota: "viernes de ballenas" },
-	{ fecha: "03-septiembre-2025", monto: 3000, nota: "miercoles pago escuela chamuco" },
-	{ fecha: "02-octubre-2025", monto: 3000, nota: "jueves en la madrugada para pagar la escuela" },
-	{ fecha: "08-octubre-2025", monto: 800, nota: "Miercoles que no funcionaba moto de mencha" },
-	{ fecha: "10-octubre-2025", monto: 1000, nota: "viernes pulida faros lagalloso y botes" },
-	{ fecha: "13-octubre-2025", monto: 1000, nota: "Dia que no vinieron a trabajar" },
+	{fecha: "11-mayo-2025", monto: 1900, nota: "Dia que trabajo y pase la cuenta"},
+	{fecha: "11-mayo-2025", monto: 1800, nota: "Día que trabajo me dio 3700 dia de cuenta"},
+	{fecha: "16-julio-2025", monto: 3600, nota: "lunes en la casa con la pitahaya"},
+	{fecha: "30-julio-2025", monto: 3600, nota: "lunes que me pidio agua"},
+	{fecha: "10-agosto-2025", monto: 3600, nota: "domingo en el parque los fresnos"},
+	{fecha: "30-agosto-2025", monto: 1800, nota: "viernes de ballenas"},
+	{fecha: "03-septiembre-2025", monto: 3000, nota: "miercoles pago escuela chamuco"},
+	{fecha: "02-octubre-2025", monto: 3000, nota: "jueves en la madrugada para pagar la escuela"},
+	{fecha: "08-octubre-2025", monto: 800, nota: "Miercoles que no funcionaba moto de mencha"},
+	{fecha: "10-octubre-2025", monto: 1000, nota: "viernes pulida faros lagalloso y botes"},
+	{fecha: "13-octubre-2025", monto: 1000, nota: "Dia que no vinieron a trabajar"},
+	{fecha: "15-octubre-2025", monto: 900, nota: "día que le pasé corriente al carro azul"},
+	{fecha: "18-octubre-2025", monto: 900, nota: "sabado que mi celular no funcionaba"},
+	{fecha: "21-octubre-2025", monto: 900, nota: "arme la compu de piti"},
+	{fecha: "23-octubre-2025", monto: 900, nota: "día que Mecha andaba bien amanecido"},
 ];
 
 // Función para formatear fecha en español
