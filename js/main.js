@@ -47,6 +47,15 @@ const DIAS_DESCANSO = [
 	"05-octubre-2025",
 	"12-octubre-2025",
 	"17-octubre-2025",
+	"26-octubre-2025",
+	"07-noviembre-2025",
+	"23-noviembre-2025",
+	"26-noviembre-2025",
+	"27-noviembre-2025",
+	"28-noviembre-2025",
+	"29-noviembre-2025",
+	"07-diciembre-2025",
+	"14-diciembre-2025"
 ];
 
 // Días de vacaciones (15 septiembre - 7 octubre 2025)
@@ -55,9 +64,6 @@ const DIAS_VACACIONES = [
 	//  "20-septiembre-2025", "21-septiembre-2025", "22-septiembre-2025", "23-septiembre-2025", "24-septiembre-2025",
 	// "25-septiembre-2025", "26-septiembre-2025", "27-septiembre-2025", "28-septiembre-2025", "29-septiembre-2025",
 	//    "30-septiembre-2025", "01-octubre-2025", "02-octubre-2025", "03-octubre-2025", "04-octubre-2025",
-	"28-octubre-2025",
-	"29-octubre-2025",
-	"30-octubre-2025",
 ];
 
 // Abonos
@@ -77,6 +83,10 @@ const ABONOS = [
 	{fecha: "18-octubre-2025", monto: 900, nota: "sabado que mi celular no funcionaba"},
 	{fecha: "21-octubre-2025", monto: 900, nota: "arme la compu de piti"},
 	{fecha: "23-octubre-2025", monto: 900, nota: "día que Mecha andaba bien amanecido"},
+	{fecha: "03-noviembre-2025", monto: 3000, nota: "Pagar escuela chamuco"},
+	{fecha: "07-noviembre-2025", monto: 1500, nota: "Lunes estaba lavando en la casa"},
+	{fecha: "30-noviembre-2025", monto: 1800, nota: "Domingo madrugada estaba con los parches casa arriba"},
+	{fecha: "03-diciembre-2025", monto: 3000, nota: "Pagar escuela chamucowoperacion gordo"},
 ];
 
 // Función para formatear fecha en español
